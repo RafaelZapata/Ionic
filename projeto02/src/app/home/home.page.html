@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Aplicativo Mini Curso Ionic
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-label>Nome:</ion-label>
+    <ion-input type="text" placeholder="Digite algo" [(ngModel)]="nome"></ion-input>
+    <ion-button (click)="mostrarNome()">Clique em mim</ion-button>
+    <ion-button routerLink="/triangulo" color="light">Triangulo</ion-button>
+  </div>
+</ion-content>

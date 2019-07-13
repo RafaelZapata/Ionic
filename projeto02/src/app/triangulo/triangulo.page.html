@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Triangulo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="direction">
+    <ion-label class="format">Base: </ion-label>
+    <ion-input type="text" placeholder="" [(ngModel)] = "base"></ion-input>
+    <ion-label class="format">Altura: </ion-label>
+    <ion-input type="text" placeholder="" [(ngModel)] = "altura"></ion-input>
+    <ion-button class="format" (click)="mostrarArea()">Calcular Área</ion-button>
+    <ion-button class="format" routerLink="/home" color="light">Voltar</ion-button>
+  </div>
+</ion-content>
